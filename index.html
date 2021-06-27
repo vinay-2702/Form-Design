@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/form.css">
+  <title>!form</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <!-- //side nav -->
+      <div class="col-md-4">
+        <div class="side-info">
+          <img src="img/img_avatar.png" class="avatar" alt="">
+          <div class="info-right">
+            <ul>
+              <li><a href="#">View public profile</a></li>
+              <li><a href="#">Profile</a></li>
+              <li><a href="#"> Photo</a> </li>
+              <li><a href="account.html">Account </a></li>
+              <li><a href="payment.html"> Payment methods</a> </li>
+              <li><a href="#">Privacy</a> </li>
+              <li><a href="#">Notifications</a> </li>
+              <li><a href="#"> API clients</a> </li>
+              <li><a href="#"> Close account</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="public-div">
+          <h3 id="h2-info"> Add information about yourself</h3>
+          <h2>Public profile</h2>
+        </div>
+        <div class="form-div">
+          <form>
+            <div class="form-group">
+              <p id="Basics">Basics:</p>
+              <!-- <label for="exampleInputEmail1"></label> -->
+              <input type="text" class="form-control" id="Input1" placeholder="First Name">
+              <!-- <small id="emailHelp" class="form-text text-muted">Links and coupon codes are not permitted in this section.</small> -->
+            </div>
+            <div class="form-group">
+              <!-- <label for="exampleInputPassword1">Password</label> -->
+              <input type="text" class="form-control" id="Input2" placeholder="Last Name">
+            </div>
+            <div class="form-group">
+              <!-- <label for="exampleInputEmail1"></label> -->
+              <input type="text" class="form-control" id="Input3" placeholder="Headline">
+              <small id="Headline" class="form-text text-muted">Add a professional headline like, "Engineer at Udemy" or
+                "Architect."</small>
+            </div>
+            <div class="form-group">
+              <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group mr-2" role="group" aria-label="First group">
+                  <button type="button" onclick="document.execCommand('bold',false,null);"
+                    class="btn btn-secondary">B</button>
+                  <button type="button" onclick="document.execCommand('italic',false,null);"
+                    class="btn btn-secondary">I</button>
+                </div>
+              </div>
+              <textarea class="form-control" rows="5" id="comment"></textarea>
+              <small id="Headline" class="form-text text-muted">Links and coupon codes are not permitted in this
+                section.</small>
+            </div>
+            <div class="form-group">
+              <select class="form-control">
+                <option>select1</option>
+                <option>select2</option>
+                <option>select3</option>
+                <option>select4</option>
+                <option>select5</option>
+                <option>select6</option>
+              </select>
+            </div>
+            <hr>
+            <div class="form-group">
+              <label for="exampleInputLink" id="link">Links:</label>
+              <input type="Link" class="form-control" id="Link1" placeholder="Webslite">
+              <!-- <small id="emailHelp" class="form-text text-muted">Add your Twitter username (e.g. johnsmith)..</small> -->
+            </div>
+            <div class="form-group">
+              <div class="col-auto">
+                <!-- <label class="sr-only" for="inlineFormInputGroup">Username</label> -->
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">http://twitter.com/</div>
+                  </div>
+                  <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Twitter Profile">
+                </div>
+              </div>
+              <small id="Headline" class="form-text text-muted">Add your Twitter username (e.g. johnsmith)..</small>
+            </div>
+            <div class="form-group">
+              <div class="col-auto">
+                <!-- <label class="sr-only" for="inlineFormInputGroup">Username</label> -->
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">http://Facebook.com/</div>
+                  </div>
+                  <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Facebook Profile">
+                </div>
+              </div>
+              <small id="Headline" class="form-text text-muted">Add your Facebook username (e.g. johnsmith)..</small>
+            </div>
+            <div class="form-group">
+              <div class="col-auto">
+                <!-- <label class="sr-only" for="inlineFormInputGroup">Username</label> -->
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">http://Linkedin.com/</div>
+                  </div>
+                  <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Linkedin Profile">
+                </div>
+              </div>
+              <small id="Headline" class="form-text text-muted">Input your LinkedIn resource id (e.g.
+                in/johnsmith)...</small>
+            </div>
+            <div class="form-group">
+              <div class="col-auto">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">http://Youtube.com/</div>
+                  </div>
+                  <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Youtube Profile">
+                </div>
+              </div>
+              <small id="Headline" class="form-text text-muted">Input your Youtube username (e.g. johnsmith)...</small>
+            </div>
+            <hr>
+            <div class="container text-center" id="con2">
+
+              <div class="form-group" id="btn2">
+                <button type="button" class="btn btn-danger">Save</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,209 @@
+/* media */
+
+
+/* @media screen and (max-width:768px) {
+    .container{
+     border: 0px;
+    }
+    .col-md-3{
+        border: none;
+    }
+} */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid gray;
+   padding: 0px;
+}
+
+.row {
+	margin: 0px;
+}
+
+.col-md-4 {
+	/* background-color: aqua; */
+	height: auto;
+	border-right: 1px solid gray;
+	padding: 0px;
+}
+
+.col-md-8 {
+	height: auto;
+	padding: 0px
+}
+
+.avatar {
+	vertical-align: middle;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	margin-left: 19px;
+}
+
+.info-right,
+ul,
+li,
+a {
+	text-decoration: none !important;;
+	list-style: none;
+	padding: 5px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: teal;
+}
+a:hover{
+	color:violet;
+}
+.side-info {
+	margin-top: 25px;
+	padding: 10px;
+}
+
+
+/* top */
+
+.public-div {
+	height: auto;
+	border-bottom: 2px solid gray;
+}
+
+.public-div,
+h2,
+h3 {
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif
+}
+
+#h2-info {
+	color: gray;
+}
+
+
+/* form */
+
+.form-div {
+	height: 50%;
+	height: auto;
+	/* align-items: center; */
+	/* margin-left: 186px;
+    margin-top: 20px; */
+}
+
+.form-group {
+	margin-bottom: 1rem;
+	padding: 5px;
+}
+
+.form-group p {
+	margin-left: 70px;
+	padding: 5px;
+}
+
+#Headline {
+	margin-left: 71px;
+}
+
+.form-control {
+	margin-left: 71px;
+	width: 79%;
+}
+
+.btn-primary {
+	color: black;
+	background-color: #007bff;
+	border-color: #007bff;
+	margin-left: 71px;
+}
+
+
+/* hadline with button */
+
+#comment {
+	height: 113px;
+}
+
+.btn-toolbar {
+	margin-left: 70px;
+}
+
+
+/* link */
+
+#link {
+	margin-left: 71px;
+}
+
+.input-group-prepend {
+	margin-right: -72px;
+}
+
+.input-group {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	width: 83%;
+	margin-left: 51px;
+}
+#con2{
+    border: none;
+}
+#con3{
+	border: none;
+	margin-left: 150px;
+}
+/* 
+#btn2 {
+	margin-left: 347px;
+} */
+
+
+/* ======================Account page=================================== */
+
+.form-group label {
+	margin-left: 70px;
+}
+
+#h3-info {
+	color: gray;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 20px;
+}
+#symboll{
+    padding: 10px;
+}
+.input-group-text {
+    padding: 0px !important;
+}
+#accbtn{
+    margin-left: 0px;
+    background-color: #ede9e9;
+    border: none;
+}
+#pop-info{
+    border: none;
+    padding: 0px;
+    text-align: start;
+    font-weight: 700;
+    margin-left: -69px;
+}
+.modal-content {
+    width: 100%;
+}
+
+#c {
+    word-break: break-all;
+    text-align: initial;
+    
+    margin-right: 50px;
+    color: red;
+
+  }
+  #btn01{
+    padding: 6px;
+    text-align: end;
+  }

@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+   <link rel="stylesheet" href="css/form.css">
+   <title>Account</title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+   <div class="container">
+      <div class="row">
+         <div class="col-md-4">
+            <div class="side-info">
+               <img src="img/img_avatar.png" class="avatar" alt="">
+               <div class="info-right">
+                  <ul>
+                     <li><a href="#">View public profile</a></li>
+                     <li><a href="#">Profile</a></li>
+                     <li><a href="#"> Photo</a> </li>
+                     <li><a href="#">Account </a></li>
+                     <li><a href="#">Payment methods</a> </li>
+                     <li><a href="#">Privacy</a> </li>
+                     <li><a href="#">Notifications</a> </li>
+                     <li><a href="#">API clients</a> </li>
+                     <li><a href="#">Close account</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-8">
+            <div class="public-div">
+               <h2> Account</h2>
+               <h3 id="h3-info"> Edit your account settings and change your password here. </h3>
+            </div>
+            <div class="form-div">
+               <form>
+                  <div class="form-group">
+                     <label for="exampleInputEmail1"> Email:</label>
+                     <div class="col-auto">
+                        <div class="input-group">
+                           <div class="input-group-prepend">
+                           </div>
+                           <input type="text" class="form-control" id="inlineFormInputGroup"
+                              placeholder="Your email address is:" >
+                           <div class="input-group-text">
+                              <button type="button" class="btn btn-primary" data-toggle="modal"
+                                 data-target="#exampleModal" id="accbtn" data-whatever="@mdo"><i
+                                    class="fa fa-pen"></i></button>
+                              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                 aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                 <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                       <div class="modal-body">
+                                       <form>
+                                             <div class="form-group">
+                                                <div class="container" id="pop-info">
+                                                   <p>Change Your Email</p>
+                                                </div>
+                                                <input type="text" class="form-control" id="recipient-name"
+                                                   placeholder="Enter your mail id" >
+                                             </div>
+                                             <div class="form-group">
+                                                <input type="password" class="form-control" id="message-text"
+                                                   placeholder="Enter Your Password" >
+                                             </div>
+
+
+                                       
+                                       <div class="modal-footer">
+                                          <div class="Last-info">
+                                             <p id="c">For your security, if you change your email address your<br>
+                                                saved credit card information will be deleted</p>
+                                          </div>
+                                       </div>
+                                       <div class="container" id="con3">
+                                          <div class="form-group" id="btn2">
+                                             <button type="submit" class="btn btn-danger">Save</button>
+                                             <!-- <input type="submit" class="btn btn-danger" value="save"> -->
+                                          </div>
+                                       </div>
+                                    </form>
+                                 </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+   </div>
+   </div>
+   </div>
+   <hr>
+   <form>
+      <div class="form-group">
+         <label for="exampleInputPassword1">Password:</label>
+         <input type="text" class="form-control" id="Input2" placeholder="Enter Current Password" required>
+      </div>
+      <div class="form-group">
+         <input type="text" class="form-control" id="Input3" placeholder="Enter New Password" required>
+      </div>
+      <div class="form-group">
+         <input type="text" class="form-control" id="Input3" placeholder="Re-type New Password" required >
+      </div>
+      <hr>
+      <div class="container text-center" id="con2">
+         <div class="form-group" id="btn2">
+            <!-- <button type="button" class="btn btn-danger">Change Password</button> -->
+            <input type="submit" class="btn btn-danger" value="Change Password">
+         </div>
+      </div>
+   </form>
+   </div>
+   </div>
+   </div>
+   </div>
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
